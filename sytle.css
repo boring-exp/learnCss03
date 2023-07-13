@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top-content {
+    height: 200px;
+    background: red;
+    width: 100%;
+}
+
+.big-wrap {
+    height: 200px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    background: yellow;
+}
+
+.big-content {
+    background: gray;
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background: chocolate;
+}
+
+@font-face
+{
+    font-family: 'dyh';
+    src: url('./assets/SmileySans-Oblique.ttf');
+    font-weight: normal;  
+    font-style: normal; 
+}
